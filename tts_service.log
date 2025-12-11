@@ -1,0 +1,117 @@
+2025-12-11 14:51:32,012 - comtypes.client._code_cache - INFO - Could not import comtypes.gen, trying to create it.
+2025-12-11 14:51:32,012 - comtypes.client._code_cache - INFO - Created comtypes.gen directory: 'D:\jhj\zhizhu\digital_man\tts-service\.venv\Lib\site-packages\comtypes\gen'
+2025-12-11 14:51:32,013 - comtypes.client._code_cache - INFO - Writing __init__.py file: 'D:\jhj\zhizhu\digital_man\tts-service\.venv\Lib\site-packages\comtypes\gen\__init__.py'
+2025-12-11 14:51:32,015 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'D:\jhj\zhizhu\digital_man\tts-service\.venv\Lib\site-packages\comtypes\gen'
+2025-12-11 14:51:32,035 - comtypes.client._generate - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-12-11 14:51:32,038 - comtypes.client._generate - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-12-11 14:51:32,083 - comtypes.client._generate - INFO - # Generating comtypes.gen.SpeechLib
+2025-12-11 14:51:32,086 - comtypes.client._generate - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-12-11 14:51:32,088 - comtypes.client._generate - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-12-11 14:51:32,091 - comtypes.client._generate - INFO - # Generating comtypes.gen.stdole
+2025-12-11 14:51:32,382 - core.tts - INFO - ������������: 2
+2025-12-11 14:51:32,382 - core.tts - INFO - ���� 0: Microsoft Huihui Desktop - Chinese (Simplified)
+2025-12-11 14:51:32,382 - core.tts - INFO - ���� 1: Microsoft Zira Desktop - English (United States)
+2025-12-11 14:54:00,401 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'D:\\jhj\\zhizhu\\digital_man\\tts-service\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-11 14:54:00,401 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'D:\jhj\zhizhu\digital_man\tts-service\.venv\Lib\site-packages\comtypes\gen'
+2025-12-11 14:54:00,517 - core.tts - INFO - ������������: 2
+2025-12-11 14:54:00,517 - core.tts - INFO - ���� 0: Microsoft Huihui Desktop - Chinese (Simplified)
+2025-12-11 14:54:00,517 - core.tts - INFO - ���� 1: Microsoft Zira Desktop - English (United States)
+2025-12-11 14:55:20,246 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'D:\\jhj\\zhizhu\\digital_man\\tts-service\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-11 14:55:20,246 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'D:\jhj\zhizhu\digital_man\tts-service\.venv\Lib\site-packages\comtypes\gen'
+2025-12-11 14:55:20,366 - core.tts - INFO - ✓ 语音合成器初始化完成
+2025-12-11 14:55:20,366 - core.tts - INFO - 可用语音数量: 2
+2025-12-11 14:55:20,366 - core.tts - INFO - 语音 0: Microsoft Huihui Desktop - Chinese (Simplified)
+2025-12-11 14:55:20,366 - core.tts - INFO - 语音 1: Microsoft Zira Desktop - English (United States)
+2025-12-11 14:55:20,367 - __main__ - INFO - 已注册Windows平台的信号处理器
+2025-12-11 14:55:20,368 - core.websocket_server - INFO - 启动TTS WebSocket服务器: 0.0.0.0:8765
+2025-12-11 14:55:20,379 - websockets.server - INFO - server listening on 0.0.0.0:8765
+2025-12-11 14:55:20,379 - core.websocket_server - INFO - TTS服务器已启动，等待连接...
+2025-12-11 14:55:32,142 - websockets.server - INFO - connection open
+2025-12-11 14:55:32,144 - core.websocket_server - INFO - 新的WebSocket连接: b7e7334d-b11c-4efd-9da5-a3bd7fc35cc8
+2025-12-11 14:55:32,150 - core.websocket_server - INFO - 开始处理合成请求: test_001, 文本长度: 26
+2025-12-11 14:55:32,152 - core.tts - INFO - 🎵 开始合成语音，文本长度: 26 字符
+2025-12-11 14:55:32,315 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 14:55:32,315 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: test_001, 总大小: 284136 字节
+2025-12-11 14:55:32,315 - core.websocket_server - INFO - 连接清理完成: b7e7334d-b11c-4efd-9da5-a3bd7fc35cc8
+2025-12-11 14:55:32,315 - websockets.server - INFO - connection closed
+2025-12-11 14:56:12,389 - websockets.server - INFO - connection open
+2025-12-11 14:56:12,389 - core.websocket_server - INFO - 新的WebSocket连接: 50f4cfd5-434f-4818-aacc-56d51ee1a47f
+2025-12-11 14:56:20,174 - core.websocket_server - INFO - 开始处理合成请求: req_1765436180173, 文本长度: 2
+2025-12-11 14:56:20,176 - core.tts - INFO - 🎵 开始合成语音，文本长度: 2 字符
+2025-12-11 14:56:20,258 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 14:56:20,260 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765436180173, 总大小: 60206 字节
+2025-12-11 14:56:31,551 - core.websocket_server - INFO - 开始处理合成请求: req_1765436191551, 文本长度: 2
+2025-12-11 14:56:31,555 - core.tts - INFO - 🎵 开始合成语音，文本长度: 2 字符
+2025-12-11 14:56:31,631 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 14:56:31,633 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765436191551, 总大小: 60206 字节
+2025-12-11 14:56:36,191 - websockets.server - INFO - connection open
+2025-12-11 14:56:36,192 - core.websocket_server - INFO - 新的WebSocket连接: 2962c60f-4d7e-45cc-a6c5-c165abb50de1
+2025-12-11 14:56:37,022 - core.websocket_server - INFO - 连接清理完成: 2962c60f-4d7e-45cc-a6c5-c165abb50de1
+2025-12-11 14:56:37,022 - websockets.server - INFO - connection closed
+2025-12-11 14:56:38,274 - websockets.server - INFO - connection open
+2025-12-11 14:56:38,274 - core.websocket_server - INFO - 新的WebSocket连接: adac773f-7d7d-449e-858e-d3e0af878a43
+2025-12-11 14:56:39,441 - core.websocket_server - INFO - 开始处理合成请求: req_1765436199441, 文本长度: 2
+2025-12-11 14:56:39,444 - core.tts - INFO - 🎵 开始合成语音，文本长度: 2 字符
+2025-12-11 14:56:39,515 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 14:56:39,515 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765436199441, 总大小: 60206 字节
+2025-12-11 14:57:15,466 - core.websocket_server - INFO - 开始处理合成请求: req_1765436235466, 文本长度: 2
+2025-12-11 14:57:15,468 - core.tts - INFO - 🎵 开始合成语音，文本长度: 2 字符
+2025-12-11 14:57:15,549 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 14:57:15,550 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765436235466, 总大小: 60206 字节
+2025-12-11 14:57:18,923 - core.websocket_server - INFO - 连接清理完成: adac773f-7d7d-449e-858e-d3e0af878a43
+2025-12-11 14:57:18,923 - websockets.server - INFO - connection closed
+2025-12-11 14:57:19,897 - core.websocket_server - INFO - 连接清理完成: 50f4cfd5-434f-4818-aacc-56d51ee1a47f
+2025-12-11 14:57:19,897 - websockets.server - INFO - connection closed
+2025-12-11 14:57:23,213 - websockets.server - INFO - connection open
+2025-12-11 14:57:23,213 - core.websocket_server - INFO - 新的WebSocket连接: 8c8a4e4c-b06b-43df-ad0a-652a1c34fcfb
+2025-12-11 14:57:32,464 - core.websocket_server - INFO - 开始处理合成请求: req_1765436252463, 文本长度: 6
+2025-12-11 14:57:32,467 - core.tts - INFO - 🎵 开始合成语音，文本长度: 6 字符
+2025-12-11 14:57:32,555 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 14:57:32,556 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765436252463, 总大小: 91948 字节
+2025-12-11 15:15:16,103 - core.websocket_server - INFO - WebSocket连接关闭: 8c8a4e4c-b06b-43df-ad0a-652a1c34fcfb
+2025-12-11 15:15:16,103 - core.websocket_server - INFO - 连接清理完成: 8c8a4e4c-b06b-43df-ad0a-652a1c34fcfb
+2025-12-11 15:15:16,103 - websockets.server - INFO - connection closed
+2025-12-11 15:22:48,672 - websockets.server - INFO - connection open
+2025-12-11 15:22:48,672 - core.websocket_server - INFO - 新的WebSocket连接: 56cec0d7-3d9c-41c2-a90e-76cbdc915197
+2025-12-11 15:28:26,721 - websockets.server - INFO - connection open
+2025-12-11 15:28:26,721 - core.websocket_server - INFO - 新的WebSocket连接: dd6fdb64-3d85-46ce-a1c7-fa21b11e986e
+2025-12-11 16:09:43,152 - core.websocket_server - INFO - WebSocket连接关闭: dd6fdb64-3d85-46ce-a1c7-fa21b11e986e
+2025-12-11 16:09:43,154 - core.websocket_server - INFO - 连接清理完成: dd6fdb64-3d85-46ce-a1c7-fa21b11e986e
+2025-12-11 16:09:43,156 - websockets.server - INFO - connection closed
+2025-12-11 16:09:43,156 - core.websocket_server - INFO - WebSocket连接关闭: 56cec0d7-3d9c-41c2-a90e-76cbdc915197
+2025-12-11 16:09:43,157 - core.websocket_server - INFO - 连接清理完成: 56cec0d7-3d9c-41c2-a90e-76cbdc915197
+2025-12-11 16:09:43,157 - websockets.server - INFO - connection closed
+2025-12-11 16:36:51,106 - websockets.server - INFO - connection open
+2025-12-11 16:36:51,106 - core.websocket_server - INFO - 新的WebSocket连接: f1cc44fa-9f74-4d96-b238-4cdbbef435b0
+2025-12-11 16:54:43,872 - core.websocket_server - INFO - 连接清理完成: f1cc44fa-9f74-4d96-b238-4cdbbef435b0
+2025-12-11 16:54:43,872 - websockets.server - INFO - connection closed
+2025-12-11 17:28:37,890 - websockets.server - INFO - connection open
+2025-12-11 17:28:37,891 - core.websocket_server - INFO - 新的WebSocket连接: c15bff6f-82cd-4f31-9bd4-336eb26404b6
+2025-12-11 17:28:47,748 - core.websocket_server - INFO - 开始处理合成请求: req_1765445327747, 文本长度: 5
+2025-12-11 17:28:47,752 - core.tts - INFO - 🎵 开始合成语音，文本长度: 5 字符
+2025-12-11 17:28:47,891 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 17:28:47,893 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765445327747, 总大小: 85554 字节
+2025-12-11 17:29:18,544 - core.websocket_server - INFO - 连接清理完成: c15bff6f-82cd-4f31-9bd4-336eb26404b6
+2025-12-11 17:29:18,544 - websockets.server - INFO - connection closed
+2025-12-11 17:29:19,850 - websockets.server - INFO - connection open
+2025-12-11 17:29:19,851 - core.websocket_server - INFO - 新的WebSocket连接: 8dd95ac1-f546-4851-b857-3fdd54bebbdb
+2025-12-11 17:29:24,794 - core.websocket_server - INFO - 开始处理合成请求: req_1765445364794, 文本长度: 2
+2025-12-11 17:29:24,796 - core.tts - INFO - 🎵 开始合成语音，文本长度: 2 字符
+2025-12-11 17:29:24,873 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 17:29:24,874 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765445364794, 总大小: 60206 字节
+2025-12-11 17:31:20,586 - core.websocket_server - INFO - 连接清理完成: 8dd95ac1-f546-4851-b857-3fdd54bebbdb
+2025-12-11 17:31:20,587 - websockets.server - INFO - connection closed
+2025-12-11 17:31:22,671 - websockets.server - INFO - connection open
+2025-12-11 17:31:22,672 - core.websocket_server - INFO - 新的WebSocket连接: 827442f8-52d1-4ef8-a8ff-d76eeabb5067
+2025-12-11 17:31:26,884 - core.websocket_server - INFO - 开始处理合成请求: req_1765445486884, 文本长度: 2
+2025-12-11 17:31:26,887 - core.tts - INFO - 🎵 开始合成语音，文本长度: 2 字符
+2025-12-11 17:31:26,970 - core.tts - INFO - ✅ 语音合成完成
+2025-12-11 17:31:26,971 - core.tts - INFO - ✅ 语音流式发送完成，请求ID: req_1765445486884, 总大小: 60206 字节
+2025-12-11 17:34:25,618 - __main__ - INFO - Windows系统接收到信号: 2
+2025-12-11 17:34:25,618 - __main__ - INFO - 正在关闭TTS服务...
+2025-12-11 17:34:25,618 - core.tts - INFO - 语音合成器已停止
+2025-12-11 17:34:25,619 - core.websocket_server - INFO - TTS服务器已停止
+2025-12-11 17:34:25,620 - core.websocket_server - INFO - 连接清理完成: 827442f8-52d1-4ef8-a8ff-d76eeabb5067
+2025-12-11 17:34:25,620 - websockets.server - INFO - connection closed
+2025-12-11 17:34:25,621 - websockets.server - INFO - server closing
+2025-12-11 17:34:25,621 - websockets.server - INFO - server closed
